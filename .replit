@@ -1,0 +1,23 @@
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "cd backend && uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload"]
+
+[[ports]]
+localPort = 8000
+externalPort = 80
+
+[languages]
+
+[languages.python]
+pattern = "**/*.py"
+
+[languages.python.languageServer]
+start = "pylsp"
+
+[languages.dart]
+pattern = "**/*.dart"
+
+[languages.dart.languageServer]
+start = "dart_language_server"
