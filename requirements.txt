@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+httpx
+aiohttp
+web3
+eth-account
+tweepy
+pillow
+numpy
+pandas
+python-decouple
+python-jose[cryptography]
+authlib
