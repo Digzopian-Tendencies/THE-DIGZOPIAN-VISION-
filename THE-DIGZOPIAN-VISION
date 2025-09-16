@@ -1,0 +1,32 @@
+THE-DIGZOPIAN-VISION/
+├── agents/
+│   ├── orchestrator/
+│   │   ├── main.py
+│   │   └── __init__.py
+│   ├── crypto_arbitrage/
+│   │   ├── main.py
+│   │   └── __init__.py
+│   ├── affiliate_marketing/
+│   │   ├── main.py
+│   │   └── __init__.py
+│   └── educational_content/
+│       ├── main.py
+│       └── __init__.py
+├── token_economics/
+│   ├── digz_token.py
+│   └── __init__.py
+├── deployment/
+│   ├── oracle_cloud/
+│   │   └── deploy.sh
+│   ├── docker/
+│   │   └── docker-compose.yml
+│   └── termux/
+│       └── install.sh
+├── monitoring/
+│   └── dashboard.md
+├── demo.py
+├── README.md
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── LICENSE
